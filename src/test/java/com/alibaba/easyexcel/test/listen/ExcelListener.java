@@ -27,7 +27,7 @@ public class ExcelListener extends AnalysisEventListener {
     }
     public void doSomething(){
         for (Object o:data) {
-            System.out.println(o);
+            System.out.println("--"+o);
         }
     }
 }
